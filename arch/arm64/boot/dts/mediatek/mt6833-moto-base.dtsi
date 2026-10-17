@@ -1,0 +1,18 @@
+/*
+ * Things can done here:
+ * 	Add nodes or properties to root node
+ * 	Delete nodes or properties
+*/
+
+/ {
+	moto_chg_tcmd: moto_chg_tcmd {
+	};
+
+	disp_leds {
+		backlight {
+			max-brightness = <4095>;
+			led-bits = <12>;
+		};
+	};
+
+};
